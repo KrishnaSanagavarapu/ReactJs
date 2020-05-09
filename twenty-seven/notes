@@ -1,0 +1,16 @@
+Memo
+
+Pure will work with class
+
+but Memo will work for functional components
+
+Memo.js
+
+rfce
+
+export default React.memo(MemoComp)
+16.6 version > = react and reactdom
+
+so here the Parent will render and the Memo component will not re-render
+
+Higher Order componentReact.memo

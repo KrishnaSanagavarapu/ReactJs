@@ -1,0 +1,5 @@
+setState 
+
+always use the setState
+never chage the state directly
+

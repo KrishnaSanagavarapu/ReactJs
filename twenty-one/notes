@@ -1,0 +1,6 @@
+basics of Form Handling
+
+form data - is refreshed
+
+add event
+event.preventdefault()

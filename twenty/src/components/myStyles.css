@@ -1,0 +1,18 @@
+.primary {
+  color: orange;
+}
+
+.font-xl {
+  font-size: 72px;
+}
+
+.mow {
+  color: yellow;
+}
+
+.milk {
+  border: 1px solid red;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

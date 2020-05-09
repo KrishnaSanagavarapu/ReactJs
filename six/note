@@ -1,0 +1,33 @@
+Class Components React
+
+ES6 classess
+
+a clas also recive 
+
+props as input and jsx as ouput
+
+class component has 
+
+private internal state - > private state
+use that information 
+
+extends component
+render()
+
+Comparision of functional and Class compoenents
+
+Func 
+use func apprach more
+absence of this keyword
+solution without state
+mainly for UI
+stateless or dumb or presentational compoenents
+
+Class
+maintain their own private data
+compelex UI logic
+life cycle hooks
+stateful/smart/container compoenents
+
+
+

@@ -1,0 +1,15 @@
+HOC 2
+
+To share common functionality between compoenents
+
+a pattern a function gets compoenet as argument and returns a new compoent
+
+const NewComponent = higherOrderComponent(originalComponent)
+const EnhancedComponent = higherOrderComponent(originalComponent)
+
+const IronMan = withSuit(TonyStart)
+
+
+withCounter.js
+
+

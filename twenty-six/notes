@@ -1,0 +1,50 @@
+Pure component.js
+
+rpce
+
+waht is the difference between pure componet and component
+and containing Parent component with state
+
+Pure componenet will not re-render
+
+Regular componenent
+a regular componenent does not implment the shouldComponentUpdate method.
+It always returns true by default
+
+Pure Component 
+A pure component on the other hand implements shouldComponentUpdate with a shallow 
+props and state comparision
+
+
+Shallow Comparision(SC)
+
+a (SC) b returns true if a and b have the same value and are of the same type
+
+Complex Types
+
+a (SC) b returns true if a and b reference the same exact object.
+
+Pure Component 
+
+A pure component implements shouldCompleteUpdate with a shallow prop and state
+comparision
+
+pure components - checks preious state with current state adn will not re-render
+if parent will not re-render child will not 
+
+pure comp -> preevent unnecessary render can give you performace boost in certain conditions
+
+we should not mutate objects or arrays in props or state
+
+if we need to add item to the list, dont push the item into list the reference
+to the array never changes 
+
+Summary
+-we can create a component by extending the PureComponent Class
+-A pure compoennt implements the shouldCOmponentUpdate lifecycle method by performing 
+a shallow Comparision on the props and the state of the component
+-if there is no difference, the component is not re-rendered - performace boost
+-It is a good idea to ensure that all the children compoenets are also pure to avoid 
+to avoid unexpected behavior
+-never mutate the state. Always return a new object reflects the new state
+

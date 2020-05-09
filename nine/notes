@@ -1,0 +1,17 @@
+Props
+
+same component - 3 times
+
+we use props
+
+is the optional input the component accepts
+
+pass a name app component and to greet component
+we specify them as attribute
+
+// this is props using the functional and class component
+// props are immutable
+// their values cannot be changed
+
+
+// it looks like data passing from parent to child

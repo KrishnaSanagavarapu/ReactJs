@@ -1,0 +1,17 @@
+State
+
+every react compoennts reacts jsx that is Ui
+
+props are get passed to the compoennts
+props are immutable
+props- functional compoenets
+this.props - class components
+
+
+state is managed within the compoennts
+varibales declared in the function boddy
+state can be changed
+
+useState hook - functional compoennts
+this.state - class components
+

@@ -1,0 +1,17 @@
+Forwarding Refs
+
+It is technique passing refs componenet to its child
+
+FRinput.js
+rfce
+
+FRParentInput.js
+rce
+
+when we click button in parent input, we need to focus in child component
+
+React.forwardRef(props,ref)
+
+
+
+

@@ -1,0 +1,39 @@
+Refs
+
+Focus the Input field after the page gets refreshed
+
+RefDemo.js
+
+this.inputRef = React.createRef()
+
+attach this Ref to the input 
+
+we use REf reserved attribute
+
+ref={this.inputRef}
+
+
+call the focus element
+
+componentDidMount
+
+console.log(this.inputRef)
+
+from this field get the input object name
+
+Refs are used to fetch the input element
+
+The second way - callback Refs Approach
+
+4 steps
+
+create a Ref by createRef method
+
+create property and set it to null
+
+we create method and DOM element
+
+this.setcbRef = element
+
+attach this Ref to the callback Ref
+

@@ -1,0 +1,21 @@
+React Js Introduction
+-Js Library
+Architecture is componenets based
+React is declarative - react will build actual UI
+Prerequisites of this course are HTML,CSS,JS,ES6
+this,filter,map,reduce,let,const,arrow,template literals,default parameter,object literals,rest and spread operator and destructuring assignments
+
+Fundamental->HTTP->Routing->Reduc->utilities
+16.5.2
+
+npx create-react-app my-app
+npm start
+
+edit App.js -> src
+npm package runner
+
+package.json
+npm or yarn
+
+node modules - handles all the dependencies
+index.html - only one html in the entire application

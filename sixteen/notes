@@ -1,0 +1,17 @@
+Conditional Rendering
+
+show or hide html on some conditions
+
+4 different approaches
+
+if else
+element variables
+ternary
+short circuit ( return something or nothing)
+
+usergreeting.js
+
+if else doesnt work inside the jsx  - not valid
+
+
+

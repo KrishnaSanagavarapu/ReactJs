@@ -1,0 +1,11 @@
+Destructuring props and state
+
+unpack values from arrays
+or  props  from objects
+
+into distinct variables
+
+code readability
+
+functional compoenets
+destructure it in functional parameter

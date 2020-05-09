@@ -1,0 +1,13 @@
+Lists and Keys 
+
+we need to assign key to prop
+key props are not accessible in the child compoenent
+
+list with key attribute
+
+a key is a special string attribute you need to include when creating list of elements
+stable identity
+keys help react identify which items have chnaged, are added or are removed
+help in efficient update of the user interface
+
+while creating lists= we need to use it

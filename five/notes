@@ -1,0 +1,22 @@
+Functional Components
+
+JS functions
+
+they reciver properties
+
+props
+
+HTML(jsx)
+
+
+a functinal is a js Components accepts input props and display in UI
+
+naming components - we use pascal naming convention
+
+
+use arrow functiosn to define the functional componetts
+
+
+exporting and importing components
+
+default

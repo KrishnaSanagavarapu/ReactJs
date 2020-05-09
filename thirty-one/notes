@@ -1,0 +1,24 @@
+Portals
+
+Provide a way to render children into DOM node that exists outside the DOM hierarchy
+of the Parent Component
+
+react portals provide ability to come out of the root in the project
+
+add a new id in the index.html
+
+id="portal-root"
+
+PortalDemo.js
+rfce
+
+Why do we need portals?
+example modal-popup
+
+https://codesandbox.io/s/00254q4n6p
+https://codepen.io/gaearon/pen/jGBWpE
+
+event bubbling
+an event propagated in the 
+
+

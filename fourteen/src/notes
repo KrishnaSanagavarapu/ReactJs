@@ -1,0 +1,11 @@
+there are 2 approcahes
+
+bind
+arrow functions - render method
+officail react doc - binding event handler in constructor and event handler
+
+
+
+1-performace implications
+2- no-rerendering 
+3- react docuemntation suggestions 3&4 approcahes

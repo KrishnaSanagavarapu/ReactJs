@@ -1,0 +1,17 @@
+LifeCycle Methods
+
+build - in Methods
+they do not 
+LifeCycle methods in class components
+
+mounting - when an instance of a component is being created and inseted into the DOM
+constructor,static getDerivedStateFromProps,render and componentDidMount
+updating - when a component is being re-rendered as a result of changes to either its props or state
+static getDerivedStateFromProps,shouldComponentUpdate,render,getSnapshopBeforeUpdate and componentDidUpdate
+unmounting - when a component is being removed from the DOM
+componentWillUnmount
+error handling - when there is an error during rendering, in life cycle method, or in the constructor of any child component
+static getDerivedStateFromError and componentDidCatch
+
+
+

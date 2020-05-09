@@ -1,0 +1,36 @@
+
+mounting - when an instance of a component is being created and inseted into the DOM
+constructor,static getDerivedStateFromProps,render and componentDidMount
+
+Mounting LifeCycle Methods
+
+constructor(props)
+
+-A special function that will get called whennever a new component is created
+-initializing state Binding the event Handling
+-do not cause side effects ex.http request
+-super(props) directly overwrite this.state
+
+static getDerivedStateFromProps(props,state)
+- very rarely used 
+-when the state of the component depends on chnages in props over time
+-set the state
+- this keyword is not allowed
+- return object that represents state-do not cause side effects ex: http requests
+
+reder()
+-only required method in class component
+-read props & state and return jsx
+-do not chnage state or intereact with DOM or make ajax calls
+- children compoemts LifeCycle methods are also executed
+
+componentDidMount()
+- invoked immeditely after a component and all its children components have been rendered to the DOM
+-cause side effects. ex inteact with the DOM or perform any agax calls to load data
+
+-static methhos - cannot access the this keyword
+
+
+console.log( ) - for order of execution
+without static- the method will be ignored
+

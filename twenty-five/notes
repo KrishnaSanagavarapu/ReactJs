@@ -1,0 +1,21 @@
+Fragments
+
+multiple tags cannot be retuned
+they need to be in div tags
+
+<React.Fragment>
+remove the div tags
+
+td cannot be div tag - it will show error in console
+for this we use React.Fragment
+
+it can accpet key value - that can be only passed - in fragrments
+
+instead of React.Fragment
+with
+<>
+</>
+- we cannot pass in key value
+
+
+

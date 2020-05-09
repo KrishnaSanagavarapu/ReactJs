@@ -1,0 +1,16 @@
+Render Props
+
+Share common functionality
+
+Sharing Code - Render Props
+
+WHy there is need?
+
+What is the Render Prop Patter and how to do it?
+
+function that returns the name - in parent component
+this need to be send to the child component
+
+Render Props Definition -
+The term "render prop" refers to a technique for sharing code between React components 
+using a prop whose value is a function

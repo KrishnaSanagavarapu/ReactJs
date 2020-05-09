@@ -1,0 +1,24 @@
+Error Handling Phase Methods
+
+2 Lifecycle Methods
+
+static getDerivedStateFromError
+
+
+Error Boundary
+A component that implements either one or both
+
+Hero.js
+rfce
+
+only that particular need to be in Error
+
+ErrorBoundary.js
+
+fallback UI
+
+wrap all the comp with error Boundary
+
+only during development we can see
+while prod, we can look particular error
+

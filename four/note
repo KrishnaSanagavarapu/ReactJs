@@ -1,0 +1,24 @@
+Components
+
+component is the part of the UI
+they are re-usable and can be nested into other components
+
+components are re-usable
+
+.jsx files are also there
+
+
+
+Stateless Functional Components
+Js functions
+
+
+
+StateFul Class component
+Class extending component Class
+render method returning HTML
+
+extend keyword
+
+example App.js is for the class component
+

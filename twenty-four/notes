@@ -1,0 +1,51 @@
+Updating LifeCycle Methods
+
+methods that are called when component re-redner with changes in props or state
+
+we have 5 methods
+
+static getDerivedStateFromProps(props,state)
+-methods is called every ti,e a component is re-rendered
+-set the state
+-do not cause side effects ex:http requests
+
+shouldComponentUpdate(nextProps,nextState)
+-dictate if the component should re-render or not
+- for performance optimisation
+-rarely used method
+
+
+render()
+-only required method
+-read props & state and return the JSX
+-do not chnage state or intereact with DOM or make ajax calls
+
+
+getSnapshotBeforeUpdate(prevProps,prevState)
+-rarely used
+-called right before the changes from the virtual DOM are reflected in the DOM
+-capture some informaiton from the DOM
+-method will either return null or return a value. Returned value will be passed as the third parameter to the next method
+
+
+componentDidUpdate(prevProps,prevState,snapshot)
+- called only once  after in each  re-render cycles
+-cause the side effects
+- accepts 3 parameters
+- compare the prevprops with nextProps
+-
+
+unmounting phase method
+-one method
+-method is invoked immeditaley before a component is unmounted and destroyed
+-cancelling any network requests, removing event handlers, cancelling any subscriptions and laso unvalidating timers
+-do not call the setState method
+
+Error boundaires concept
+error handling
+- this has 2 methods
+
+static getDerivedStateFromError(error)
+componentDidCatch(error,info)
+
+-when there is an error either during rendering, in lifecycle method or, or in the constructor of any child component
